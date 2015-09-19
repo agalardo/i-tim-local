@@ -1,0 +1,7 @@
+AuthName "technoid.i-tim.ru statistics"
+AuthType Basic
+AuthUserFile /home/technoid/.stats-htpasswd
+require valid-user
+<Files .htpasswd>
+deny from all
+</Files>

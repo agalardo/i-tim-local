@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#main td{vertical-align:top;}
+center{margin:20px;}
+a, center, tr{font-family: Tahoma; font-size:12px;}
+h1{font-family: Tahoma; font-size:20px;}
+
+#topTable{background-color:#FFF;border-collapse:collapse; margin-bottom:10px;}
+#topTable td{padding:3px;}
+#container{border:1px solid #666; background-color:white;}
+
+a.keyword{text-decoration:none;cursor: pointer;} 
+a.keyword:link {color:#666; /* Цвет ссылок */}
+a.keyword:visited{color:#666;}
+a.keyword:hover {color:#2159C0;} /* Цвет ссылки */
+ul {margin: 0; padding: 0; position: relative; top: 2em;}

@@ -1,0 +1,13 @@
+/* 
+    Document   : geotargeting
+    Created on : 17.04.2013, 15:41:27
+    Author     : Natalya
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#progressBar{position:absolute; top:50%; left:50%;margin-left: -125px; margin-top: -75px;padding-bottom:30px; padding-top:30px; text-align:center; background-color:#31D231;
+             width:250px; height:150px; visibility:visible; z-index:11;border-radius: 6px;}
+#reload{
+    cursor: pointer;
+}

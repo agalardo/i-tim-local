@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {background-color:#F5F5F5;}
+#content{width: 1000px;margin: 0 auto;}
+#authtor {margin: 50px;}
+#authtor tr {background:#E5E5E5; text-align:center;}
+#authtor td {border:none;}
+td {text-align:center; }
+table{border-radius: 6px;}
+input{text-align:center; margin-right:10px;margin-left:0px;}
+
+
+li{
+display:inline-block;
+}
+.parserForm{font-size:16px;display:inline;}	
+#title{
+    font-size:18px;
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+}
+#title0{text-align:left;}
+#title1{text-align:right;}
+#header tr{background-color:#F5F5F5;}
+#header table{margin:0;border-collapse: collapse;}

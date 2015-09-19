@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+textarea, select{font-family:Arial, Helvetica, sans-serif;}
+
+textArea{border: 1px solid #bdbcbd; margin: 0px; -moz-border-radius:6px;
+         -webkit-border-radius:6px;
+         border-radius:6px;
+}
+
+input{text-align:center; margin-right:10px;margin-left:10px;}
+
+#progressBar{
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left: -75px;
+    padding: 30px 5px;
+    text-align:center;
+    background-color:#31D231;
+    width:150px;
+    height:auto;
+    visibility:hidden;
+    z-index:11;
+    border-radius: 6px;
+}
+#div{position:absolute; top:0; left:0; width:100%; height:100%; z-index:11;visibility:hidden;opacity: 0.5; background:#666;}
+
+td{vertical-align:central;}
+td#stat{vertical-align:top;}
+table{background-color:#EAFBEC;}
+#topTable{background-color:#FFF;border-collapse:collapse; margin-bottom:10px;}
+#topTable td{padding:3px;}
+#statistic td{padding:3px;}
+#main table{
+    padding-bottom:15px;
+}
+#4_0{margin-top:10px;}
+#h4{display:inline;font-weight:400; color:#31D231;}
+
+li#submit{
+    /*IE9 не понимает числовой идентификатор*/
+    margin-left:70px;
+}
+
+.wid200 {
+    width: 200px;
+}
+.wid100 {
+    width: 100px;
+}
+
+#passContainer {display: none;}
+#emailContainer {display: none;}
+#passContainerSlide, #emailContainerSlide {cursor: pointer; }

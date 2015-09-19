@@ -1,0 +1,453 @@
+# Webalizer V2.01-10 Incremental Data - 04/28/2013 23:52:00
+2013 4 28 23 52 0
+7435 3952 32 68 27 22 44270237 3700 185 0
+3 209 661 1 28
+15 11 310537 1 10 1
+1155 608 5037480 2 565 12
+223 167 1797159 2 125 9
+26 22 338399 1 9 1
+2 1 1465 1 1 1
+330 181 843722 1 165 3
+0 0 0 0 0 0
+527 232 2118300 2 242 11
+627 253 1370818 3 266 9
+62 41 614126 2 26 10
+147 86 675912 2 84 5
+93 67 416139 3 54 8
+152 86 421230 1 86 6
+18 11 261893 1 9 7
+37 14 30552 1 16 1
+80 45 350165 2 45 3
+92 53 811623 2 47 12
+1603 883 16201797 4 883 10
+576 356 3311690 7 294 13
+133 72 441505 2 72 4
+169 96 1494963 1 86 4
+580 213 1454369 4 212 8
+156 105 2177112 7 86 8
+152 76 1163640 4 62 13
+53 30 537784 3 28 11
+51 30 356252 4 23 6
+56 26 41772 2 28 10
+320 187 1689833 3 176 3
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+755 237 1703966 238
+1 1 2283 1
+4 2 2866 2
+5 5 254137 3
+0 0 0 0
+0 0 0 0
+113 75 323875 62
+143 69 431993 66
+0 0 0 0
+188 120 1273005 105
+80 46 82758 31
+121 84 963892 64
+484 281 2448391 239
+145 92 1278366 79
+460 292 3541466 247
+542 321 6213681 298
+218 100 870913 103
+204 120 1224328 106
+480 206 2943461 233
+1265 614 8771925 627
+579 283 1419001 328
+456 315 4015655 241
+573 324 2905568 297
+619 365 3598707 330
+0
+0
+0
+3952
+0
+0
+0
+0
+0
+4
+0
+0
+1543
+0
+1852
+0
+0
+0
+0
+0
+0
+28
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+56
+0
+0
+0
+0
+0
+# -urls- 
+/images/selects.png
+1 33 2053729377 8950 0 0
+/js/jquery.json-2.3.js
+0 231 2053729377 131936 0 0
+/
+0 303 0 625024 62 9
+/js/selectLock.js
+0 41 3688618971 43388 0 0
+/css/selects.css
+0 39 3688618971 94698 0 0
+/css/geotargeting.css
+0 42 154480728 457 0 0
+/js/grabber.js
+0 42 0 144500 0 0
+/result
+0 4 0 18349 0 0
+/application/scripts/geotargeting_google.php
+0 9 0 943461 0 0
+/css/parser.css
+0 195 0 18102 0 0
+/libraries/jquery-1.7.1.js
+0 2 0 257501 0 0
+/js/
+0 127 0 29976 1 3
+/application/scripts/parser_curl.php
+0 52 0 842103 0 0
+/services
+0 201 0 748941 3 2
+/create_db/ip.php
+0 2 0 28 0 0
+/images/404.png
+1 10 3688618971 1676016 0 0
+/js/parser.js
+0 203 3688618971 310863 0 0
+/js/select/jsScroll.js
+0 42 3688618971 214453 0 0
+/create_db/testDb.php
+0 7 3688618971 440 1 1
+/application/scripts/reload.php
+0 78 0 834919 0 0
+/libraries/
+0 1 2882384 1600 0 0
+/application/scripts/sendcaptcha.php
+0 40 0 7744533 0 0
+/create_db/Count_curl table.php
+0 6 0 670 0 0
+/libraries/Highcharts-2.3.2/js/highcharts.js
+0 16 0 1093626 0 0
+/icons/folder.gif
+1 1 0 225 0 0
+/create_db/count_curl_insert.php
+0 1 0 0 0 0
+/js/heightDocument.js
+0 43 0 18522 0 0
+/create_db/ya.php
+0 3 0 12 0 0
+/yandex_664b088f2f5e1eef.html
+0 2 0 280 1 0
+/js/services.js
+0 37 0 64286 0 0
+/js/select/jquery.selects.js
+0 42 0 345573 0 0
+/css/services.css
+0 37 0 15269 0 0
+/icons/blank.gif
+1 86 0 148 0 0
+/js/jquery-1.7.1.js
+0 347 0 12077267 0 0
+/libraries/Highcharts-2.3.2/js/modules/exporting.js
+0 16 0 68040 0 0
+/favicon.ico
+0 21 0 38430 0 0
+/application/scripts/test_file_write.php
+0 5 0 390 0 0
+/application/scripts/generation_of_pic.php
+0 148 0 82299 2 3
+/authorization
+0 71 0 358827 0 0
+/application/scripts/parser_curl_yandex.php
+0 60 0 49652 2 0
+/icons/text.gif
+1 86 0 229 0 0
+/css/statistic.css
+0 21 0 6124 0 0
+/parser
+0 259 0 2942364 5 0
+/create_db/test_db.php
+0 1 0 75 0 0
+/emailgrabber
+0 73 0 368447 0 1
+/js/statistic.js
+0 21 0 3943 0 0
+/application/scripts/geotargeting.php
+0 4 0 967500 2 0
+/create_db/Technoid_db.php
+0 3 0 166 3 1
+/statistic
+0 159 0 677250 0 0
+/application/scripts/parser_curl_grabber.php
+0 13 0 397505 1 0
+/images/00bd.png
+1 36 0 364252 0 0
+/application/scripts/save_sites_keywords.php
+0 46 0 46 0 0
+/css/grabber.css
+0 42 0 95180 0 0
+/js/authorization.js
+0 43 0 148376 0 0
+/main
+0 76 0 168733 2 4
+/create_db/activ_captcha table.php
+0 9 0 1364 0 0
+/application/scripts/formvalidator.php
+0 3 0 27 1 1
+/404
+0 1478 0 1921712 92 126
+/create_db/user_access_operation table.php
+0 10 0 1974 0 0
+/application/scripts/geotargeting_yandex.php
+0 90 0 6760247 2 0
+/application/scripts/parser_curl_google.php
+0 29 0 58 2 1
+/create_db/
+0 87 0 175345 0 2
+/js/geotargeting.js
+0 42 0 1613 0 0
+/css/
+0 130 0 37798 0 1
+/create_db/Create Sites 
+0 2 0 451 0 0
+/icons/back.gif
+1 86 0 216 0 0
+/register
+0 12 0 11035 0 0
+/css/parser_main.css
+0 301 0 113171 0 0
+# End Of Table - urls
+# -sites- (monthly)
+93.158.148.31
+0 9 4 9764 4 1367160845
+/
+128.68.38.227
+0 5 5 254137 1 1366731596
+/js/
+74.125.182.17
+0 1 1 257002 1 1366726295
+/application/scripts/geotargeting_yandex.php
+94.230.162.169
+0 5 5 254351 1 1365679307
+/js/
+213.170.83.154
+0 105 79 1366861 1 1366726553
+/application/scripts/parser_curl_grabber.php
+46.188.17.9
+0 5 5 254137 1 1366859015
+/js/
+77.234.220.222
+0 41 34 379146 2 1366978985
+/404
+195.239.216.138
+0 7 6 255570 1 1366821360
+/404
+80.79.242.165
+0 7 6 255570 1 1366645582
+/404
+178.236.140.5
+0 917 392 2005799 10 1364937309
+/main
+178.236.140.13
+0 1936 1038 9019437 31 1365536735
+/404
+178.236.140.18
+0 3816 1957 23598093 105 1367193120
+/css/
+109.167.217.242
+0 22 19 318806 1 1366381215
+/404
+217.66.158.247
+0 84 65 858162 2 1366393792
+/404
+82.145.210.158
+0 16 15 312381 1 1366321622
+/emailgrabber
+74.125.183.16
+0 1 0 157 0 0
+-
+74.125.183.17
+0 1 1 1276 1 1366745388
+/404
+74.125.63.33
+0 1 1 256421 1 1366740203
+/application/scripts/geotargeting_yandex.php
+85.114.18.10
+0 20 18 337200 1 1366980068
+/application/scripts/parser_curl_grabber.php
+176.221.13.10
+0 20 18 381163 1 1366816793
+/application/scripts/parser_curl_grabber.php
+188.187.5.118
+0 94 69 975247 1 1367192271
+/404
+91.209.130.18
+0 46 42 788249 3 1365505082
+/js/
+91.142.83.166
+0 50 31 352445 2 1366397050
+/404
+176.214.22.66
+0 173 97 402377 4 1366462082
+/404
+95.24.171.222
+0 5 5 254137 1 1366882800
+/js/
+5.164.86.130
+0 2 1 1433 1 1366656556
+/404
+109.205.249.167
+0 26 23 340250 1 1365601575
+/application/scripts/generation_of_pic.php
+176.195.219.202
+0 5 5 254255 1 1366201002
+/js/
+95.53.87.96
+0 1 1 13009 0 0
+-
+109.173.23.25
+0 10 10 508392 2 1366803805
+/js/
+95.108.234.35
+0 1 1 140 1 1365808137
+/yandex_664b088f2f5e1eef.html
+95.108.234.37
+0 3 2 4870 1 1365807940
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+93.158.148.31
+0 2 1 2439 1 1367160845
+/
+178.236.140.18
+0 224 117 712147 1 1367193120
+/css/
+188.187.5.118
+0 94 69 975247 1 1367192271
+/404
+# End Of Table - sites (daily)
+# -referrers- 
+http://technoid.i-tim.ru/css/selects.css
+0 1
+http://technoid.i-tim.ru/application/scripts/geotargeting_google.php
+0 24
+- (Direct Request)
+0 2994
+http://spb.hh.ru/resume/601fbc2f0000b1ad84000a8702736563726574
+0 1
+http://technoid.i-tim.ru/create_db/Technoid_db.php
+0 1
+http://technoid.i-tim.ru/404
+0 45
+http://webmaster.yandex.ru/site/virused.xml
+0 1
+http://technoid.i-tim.ru/main
+0 111
+http://www.technoid.i-tim.ru/emailgrabber
+0 10
+http://spb.hh.ru/resume
+0 4
+http://technoid.i-tim.ru/authorization
+0 515
+http://yandex.ru/yandsearch
+0 6
+http://technoid.i-tim.ru/create_db/
+0 324
+http://www.technoid.i-tim.ru/
+0 5
+http://spb.hh.ru/resume/3954bb9eff017546fd0039ed1f4870676c354c
+0 1
+http://technoid.i-tim.ru/application/scripts/geotargeting.php
+0 20
+http://spb.hh.ru/resume/7d7be7a0ff00b1ad840039ed1f736563726574
+0 5
+http://technoid.i-tim.ru/parser
+0 1278
+http://technoid.i-tim.ru/css/grabber.css
+0 1
+http://technoid.i-tim.ru/application/scripts/geotargeting_yandex.php
+0 177
+http://technoid.i-tim.ru/register
+0 11
+http://technoid.i-tim.ru/libraries/
+0 1
+http://technoid.i-tim.ru/statistic
+0 235
+http://technoid.i-tim.ru/emailgrabber
+0 428
+http://spb.hh.ru/resume/774948f90000b1ad8400000c50736563726574
+0 2
+http://technoid.i-tim.ru/
+0 728
+http://technoid.i-tim.ru/services
+0 506
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (compatible; YandexWebmaster/2.0; +http://yandex.com/bots)
+0 2
+Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)
+0 11
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CL
+0 15
+Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)
+0 63
+Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/532.9 (KHTML, like Gecko) Chrome/5.0.307.11 Safari/532.9
+0 1
+Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+0 112
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)
+0 5
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.3072
+0 2
+Opera/9.80 (Windows NT 5.1) Presto/2.12.388 Version/12.15
+0 17
+Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.14
+0 1283
+Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.15
+0 172
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+0 49
+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1106.241 YaBrowser/1.5.1106.241 Safari/
+0 353
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1106.241 YaBrowser/1.5.1106.241 Safari/
+0 5197
+Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.43 Safari/537.31
+0 20
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.43 Safari/537.31
+0 5
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+0 5
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:20.0) Gecko/20100101 Firefox/20.0
+0 1
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.3
+0 5
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22
+0 50
+Opera/9.80 (Windows NT 5.1; U; MRA 8.0 (build 6007); ru) Presto/2.10.289 Version/12.02
+0 26
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:20.0) Gecko/20100101 Firefox/20.0
+0 41
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

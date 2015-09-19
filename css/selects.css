@@ -1,0 +1,172 @@
+.selectArea, .center_a, .selectArea .left, .scrollbar-up, .scrollbar-down, .scrollbar-handle {
+background: url(../images/selects.png) no-repeat;
+}
+.selectArea {
+height:26px !important;
+background-position: 0 -52px;
+background-repeat: repeat-x;
+position: relative;
+}
+.selectArea input {
+color: #4e4e4e !important;
+font-size: 12px !important;
+border: none !important;
+background: none !important;
+position: absolute;
+top: 4px;
+left: 1px;
+width: 80% !important;
+height: 100% !important;
+font-family: Tahoma;
+padding: 0 0 0 7px !important;
+cursor: pointer;
+height: auto !important;
+}
+textArea {
+  font-family: Tahoma; 
+  font-size: 12px !important;
+  color: #4e4e4e !important;
+  padding: 5px;
+}
+.center_a {
+background-position: right -26px;
+cursor: pointer;
+height: 100%;
+position: absolute;
+top: 0;
+right: 0;
+width: 100% !important;
+}
+* html .center_a {
+right: -1px;
+overflow: hidden;
+}
+.selectArea .left {
+width:2px;
+background-position: 0 0;
+left: 0;
+height: 100%;
+float:left;
+overflow: hidden;
+position: relative;
+}
+.selectArea .optionsDivInvisible, .selectArea .optionsDivVisible {
+border-bottom: 1px solid #bdbcbd;
+background: #fff !important;
+top: 25px !important;
+position:absolute !important;
+margin: 0 !important;
+z-index:0;
+text-align: left;
+left: 0 !important;
+width: 100% !important;
+overflow: hidden;
+}
+.optionsDivVisible {display:block;}
+.selectArea .optionsDivInvisible span {
+padding: 2px 0 !important;
+border-left: 1px solid #bdbcbd !important;
+border-right: 1px solid #bdbcbd !important;
+color: #4e4e4e !important;
+font-size: 12px !important;
+text-indent: 10px;
+display: block;
+height: 15px;
+cursor: pointer;
+margin:0 !important;
+float: none !important;
+background: none;
+}
+.selectArea .scrollbar-container span {
+margin-left: -5px !important;
+}
+.selectArea .optionsDivInvisible span:hover {
+background: #e76624;
+color: #fff !important;
+}
+.selectArea .optionsDivInvisible span.over {
+background: #31D231;
+color: #fff !important;
+}
+.scrollbar-container {
+height: 143px;
+margin: 0 !important;
+padding: 0 !important;
+overflow: hidden;
+position: relative !important;
+border-left: 1px solid #bdbcbd !important;
+border-right: 1px solid #bdbcbd !important;
+display: block !important;
+float: none !important;
+clear: none !important;
+width: auto !important;
+}
+* html .scrollbar-container {
+width: 100% !important;
+}
+.scrollbar-up, .scrollbar-down {
+width: 15px;
+height: 13px;
+overflow: hidden;
+position: absolute !important;
+top: 0;
+right: 0;
+left: auto;
+cursor: pointer;
+z-index: 2;
+background-position: -6px -91px;
+margin: 0 !important;
+padding: 0 !important;
+}
+.scrollbar-down {
+top: auto;
+bottom: 0;
+background-position: -6px -78px;
+}
+.scrollbar-track {
+height: 117px;
+width: 15px;
+background: #f4f6f8;
+position: absolute !important;
+top: 13px;
+right: 0;
+z-index: 2;
+margin: 0 !important;
+padding: 0 !important;
+}
+* html .scrollbar-track, * html .scrollbar-up, * html .scrollbar-down {
+right: 0px;
+}
+.scrollbar-handle {
+cursor: pointer;
+position: absolute !important;
+right: 0;
+top: 0;
+width: 15px;
+height: 27px;
+overflow: hidden;
+margin: 0 !important;
+background-position: -6px -104px;
+display: block;
+}
+.container2 {
+height: 103px;
+width: 100% !important;
+clear: none !important;
+position: static !important;
+margin: 0 !important;
+padding: 0 !important;
+}
+.scroller-container {
+top: 0;
+left: 0;
+z-index: 0;
+position: absolute !important;
+width: 1000px !important;
+display: block !important;
+margin: 0 !important;
+padding: 0 !important;
+}
+.selectArea .optionsDivInvisible .scroller-container span {
+border: none !important;
+}

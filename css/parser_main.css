@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+* {font-family: Tahoma; font-size:12px}
+#title{font-size:17px;}
+
+ul{
+    display:inline;
+}
+
+li{
+    display:inline;
+    width:auto;
+    font-size:12px;
+    text-align:center;
+    padding:3px;
+    list-style:none;
+    cursor: pointer;
+    background-color:#A6A6A6;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    -moz-box-shadow: 0 0 1px rgba(0,0,0,0.5); /* Для Firefox */
+    -webkit-box-shadow: 0 0 1px rgba(0,0,0,0.5); /* Для Safari и Chrome */
+    box-shadow: 0 0 1px rgba(0,0,0,0.5); /* Параметры тени */
+}
+div.fieldset{
+    padding: 20px;
+    border:solid 1px;
+    border-color:#666;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+    -moz-box-shadow: 0 0 3px #666; /* Для Firefox */
+    -webkit-box-shadow: 0 0 3px #666; /* Для Safari и Chrome */
+    box-shadow: 0 0 3px #666; /* Параметры тени */
+}
+#content{width: 1000px;margin: 0 auto;}
+#main{
+    background-color:#EAFBEC;
+    padding: 15px;
+    border:solid 1px;
+    border-color:#666;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Firefox */
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Safari и Chrome */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+}
+#main table{
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+}
+#authtor {
+    -moz-box-shadow: 0 0 3px #666; /* Для Firefox */
+    -webkit-box-shadow: 0 0 3px #666; /* Для Safari и Chrome */
+    box-shadow: 0 0 3px #666; /* Параметры тени */
+}
+#sidebar_hr{
+    color:#87C985;
+    height: 3px;
+    width:1000px;
+    border: none;
+    background-color:#87C985;
+    -moz-box-shadow: 0 0 3px #87C985; /* Для Firefox */
+    -webkit-box-shadow: 0 0 3px #87C985; /* Для Safari и Chrome */
+    box-shadow: 0 0 3px #87C985; /* Параметры тени */
+}
+a:link {color:#666; /* Цвет ссылок */}
+a:visited{color:#666;}
+a:hover {color:#0C0; /* Цвет ссылки */} 
+.button{ 
+    background-color:#A6A6A6;    
+}
+.button:hover{
+    background-color: #ccc;    
+}
+.button:active{
+    background-color: #2FAA00;
+    color: white;
+}
