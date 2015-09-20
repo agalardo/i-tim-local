@@ -171,7 +171,7 @@ function Main($depth, $url, $site, $Data, $delay) {
         //-----------------Определяем переменные-------------------
 
         $str_query = urlencode($keyword);
-        $url_str = "http://" . $url . "/yandsearch?text=" . $str_query;
+        $url_str = "http://" . $url . "/search/?text=" . $str_query;
         //---------------------------------------------------------
 
         $result = iteration($depth, $url, $url_str, $keyword, $site, $str_query, $delay);

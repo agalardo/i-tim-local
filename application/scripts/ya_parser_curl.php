@@ -34,8 +34,7 @@ function save_result($url, $depth, $data) {
     $query_data = mysql_fetch_array($result);
     $keyword_id = $query_data['keyword_id'];
 
-    if (count($data) == 4) {
-        
+    if (count($data) == 4){
         $query = "INSERT INTO $result_tablename VALUES(NULL,'$seacher','$keyword_id','$data[2]','$data[0]','$depth',CURRENT_TIMESTAMP)";
     } else {
         $query = "INSERT INTO $result_tablename VALUES(NULL,'$seacher','$keyword_id',NULL,'$depth','$depth',CURRENT_TIMESTAMP)";
@@ -44,7 +43,6 @@ function save_result($url, $depth, $data) {
     }
     $result = mysql_query($query);
     if (!$result) {
-        
         error_message(mysql_error());
 //return 0;
     }
@@ -452,7 +450,7 @@ function Main($depth, $url, $keywords, $site, $time_1, $delay) {
             $str_query = implode("%20", $temp);
             unset($temp);
 
-            $url_str = "http://" . $url . "/yandsearch?text=" . $str_query;
+            $url_str = "http://" . $url . "/search/?text=" . $str_query;
 //---------------------------------------------------------        
 
             $data = iteration($depth, $url, $url_str, $value, $site, $str_query, $delay, $position_first, $positionOld, $urlDB_first, $firstSeaching);
@@ -460,7 +458,7 @@ function Main($depth, $url, $keywords, $site, $time_1, $delay) {
             unset($positionOld);
 
             $iterationBool = 1;
-
+            if($data === null) echo "data===null";
             save_result($url, $depth, $data);
         }
 
