@@ -4,17 +4,9 @@
 function save_result($url, $depth, $data) {
     
     global $result_tablename, $site_tablename, $user_id;
-//    $seacher = iconv('utf-8', 'windows-1251', $url);
-    $seacher = $url;
-//    $depth = iconv('utf-8', 'windows-1251', $depth);
-    $depth *= 10;
 
-//    foreach ($data as $value) {
-////        $temp[] = iconv('utf-8', 'windows-1251', $value);
-//        $temp[] = $value;
-//    }
-//    $data = $temp;
-//    unset($temp);
+    $seacher = $url;
+    $depth *= 10;
 
     if (count($data) == 4) {
         $keyword = $data[3];
@@ -38,8 +30,6 @@ function save_result($url, $depth, $data) {
         $query = "INSERT INTO $result_tablename VALUES(NULL,'$seacher','$keyword_id','$data[2]','$data[0]','$depth',CURRENT_TIMESTAMP)";
     } else {
         $query = "INSERT INTO $result_tablename VALUES(NULL,'$seacher','$keyword_id',NULL,'$depth','$depth',CURRENT_TIMESTAMP)";
-    
-        
     }
     $result = mysql_query($query);
     if (!$result) {
@@ -50,7 +40,7 @@ function save_result($url, $depth, $data) {
 
 //-----------------Функция для выполнения запроса------------------------
 function curl($url_str, $url) {
-    global $activity_tablename, $seacher, $user_id;
+    global $endUrl, $activity_tablename, $seacher, $user_id;
 
     //$cookieFile = "cookies/cookie$user_id.txt";
     $cookieFile = "./cookie$user_id.txt";
@@ -107,8 +97,9 @@ function curl($url_str, $url) {
 //            error_message(mysql_error());
 //        }
         die("4");
+    } else {
+        //print($response);		
     }
-
     curl_close($curl);
 
     return $response;
@@ -338,9 +329,9 @@ function seacherPosition($url, $url_str, $str_query, $site, $keyword, $positionD
     else {
         $last_key = array_pop(array_keys($response));
 
-        if ($last_key == $last_key_old - 1) {
-            $data = array("Relevant page not found in Google", $site, $keyword);
-            return $data;
+        if ($last_key < $last_key_old) {
+            
+            return $response;
         }
         if ($response[$positionDB] == NULL) {
             $url_str = str_replace("&amp;", "&", $response[$last_key]);
@@ -379,10 +370,7 @@ function Main($depth, $url, $keywords, $site, $time_1, $delay) {
 //        echo $value;
 //        echo "<br/>";
 //-------------------определение необходимости поиска("поиск сегодня осуществлялся")
-//        $site = iconv('utf-8', 'windows-1251', $site);
-//        $keyword = iconv('utf-8', 'windows-1251', $value);
         $keyword = $value;
-//        $seacher = iconv('utf-8', 'windows-1251', $url);
         $seacher = $url;
 
         $query = "SELECT keyword_id FROM $site_tablename WHERE site = '$site' AND user_id = '$user_id' AND keyword = '$keyword'";
@@ -494,7 +482,6 @@ if ($firstSeaching || $depth < $positionDB || $positionDB == 1 || ($urlDB == NUL
 // | при прошлом поиске результат был на первой странице | Сайт когда-то был найден и глубина поиска меньше позиции из базы
 // | глубина поиска <= 10 для того, чтобы не задействовать seacherPosition() на маленькой глубине 
 //seacherPosition() не учитывает случая отсутствия на первой странице искомого сайта, если positionDB==1
-        
         for ($i = 0; $i < $depth; $i++) {
             
             $response = parser($url, $url_str, $site, $str_query);            
@@ -532,7 +519,6 @@ if ($firstSeaching || $depth < $positionDB || $positionDB == 1 || ($urlDB == NUL
     elseif ($urlDB == null) {//при прошлом поиске сайт не был найден
         
         if ($positionDbOld) {//когда-то был наден
-            
             $data = seacherPosition($url, $url_str, $str_query, $site, $keyword, $positionDbOld, $delay, $depth, $last_key);
         } 
         else {//ниразу не был найден
@@ -570,6 +556,7 @@ if ($firstSeaching || $depth < $positionDB || $positionDB == 1 || ($urlDB == NUL
 //            $href[1] = $response;
             $index = 1;
             for ($i = 0; $i < $depthNF * 2; $i++) {
+                
                 if ($i % 2 == 0)
                     $d = 1;
                 else
@@ -615,11 +602,12 @@ if ($firstSeaching || $depth < $positionDB || $positionDB == 1 || ($urlDB == NUL
                     $href[1] = $response;
                 }
                 
-                elseif ($response == 0) {
+                if ($response == 0) {
 //Если результаты на одной странице и совпадений нет
                     $data = array("Relevant page not found in Google", $site, $keyword);
                     return $data;
-                } else {
+                } 
+                else {
 
                     if ($d > 0 && $key[0] < $depth) {
                         $key[0] ++;
@@ -735,7 +723,7 @@ if ($firstSeaching || $depth < $positionDB || $positionDB == 1 || ($urlDB == NUL
                 }
 
                 
-                elseif ($response == 0) {
+                if ($response == 0) {
 //Если результаты на одной странице и совпадений нет
                     $data = array("Relevant page not found in Google", $site, $keyword);
                     return $data;
